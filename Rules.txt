@@ -1,0 +1,65 @@
+            .-.
+          .;;\ |
+         /::::\|\
+        /::::'();
+       |::::'   |
+      |\/`\:_/`\/|
+  ,__ |0_..().._0| __,
+   \,`////""""\\\\`,/
+   | )//_ o  o _\\( |
+    \/|(_) () (_)|\/
+      \   '--'   /
+      _:.______.;_
+    /| | /`\/`\ | |\
+   / | | \_/\_/ | | \
+  /  |o`""""""""`o|  \
+ `.__/     ()     \__.'
+ /  /              \  \
+ |  | ___  ()  ___ |  |
+ /  \|---|    |---|/  \
+ |  (|   | () |   |)  |
+ \  /;---'    '---;\  /
+  `` \ ___ /\ ___ / ``
+      `|  |  |  |`
+       |  |  |  |
+       | =|  |= |
+       |  |  |  |
+ _._  |\|\/||\/|/|  _._
+/ .-\ |~~~~||~~~~| /-. \
+| \__.'    ||    '.__/ |
+\          ||          /
+ `---------''---------`
+
+===========================
+========== RULES ==========
+===========================
+You are Santa Claus, and when the elves are not making toys, they are collecting fir trees to sell as christmas trees.
+There are three woods you can send the elves too - the tiny woods, the far away woods or the mountain woods
+Each wood comes with it's own level of risk and value of the tree - the higher the risk the higher the value of the tree
+Each elf sent to the woods returns with a maximum of 1 tree, depending on the weather conditions
+
+Weather conditions - Sunny, rainy and thunder
+
+Tiny woods - elves always return and always bring back a tree
+Far away woods - elves always return but only bring back a tree if it was sunny
+Mountain woods - elves only return if the weather was sunny or rainy, and only bring back a tree if it was sunny
+
+Trees from the tiny woods are worth 1 coin each
+Trees from the far away woods are worth 3 coins each
+Trees from the moutain woods are worth 10 coins each
+
+There are 24 days
+
+On day 1, you are given 15 coins with which you can buy elves
+Elves cost 2.5 coins each
+Elves can be bought on days 1, 8, 15 or 22
+You cannot play the game with zero elves
+
+Days 1-5 you can only send elves to the tiny woods
+Days 1-6 the weather is always sunny
+Days 6-10 you can send elves to the tiny woods and the far away woods
+Days 7-13 the weather has a 2/3 chance of being sunny and a 1/3 chance of being rainy
+Days 11-24 you can send elves to all three woods - tiny, far away and moutain
+Days 14-24 the weather has a 1/2 chance of being sunny, 1/3 chance of being rainy, and a 1/6 chance of being thunder
+
+The game is scored based on how much money there is at the end of the game
